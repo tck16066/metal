@@ -1,4 +1,4 @@
-int add(int x, int y)
+void inc(unsigned int *x)
 {
-  return x + y;
+  *x = *x + 1;
 }
